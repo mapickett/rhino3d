@@ -15,5 +15,12 @@ Zoom - Mouse wheel or Ctrl + Right Click + Drag
 Units command or File -> Properties -> Units  
 Use the same unit for both model and layout.
 
+## Get to know the Gumball
+
+Rhino Guide: https://www.rhino3d.com/docs/guides/user-guide/gumball-basics/
+
+![](./img/gumball.jpg)
+
+
 
 

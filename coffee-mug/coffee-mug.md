@@ -29,6 +29,9 @@ Press delete to delete the selected faces
 ![](./img/coffee-mug-3.jpg)
 
 ### 4. Create Thickness
+Ctrl + Shift + Left Mouse Click to select an edge  
+Ctrl + Shift + Left Mouse Double Click to select a contiguous row of edges
+
 **Command:** OffsetSubD
 
 `Select object to flip offset direction. Press Enter when done ( Distance=5  Solid=Yes  BothSides=No  DeleteInput=No  FlipAll ): FlipAll`
@@ -64,4 +67,32 @@ Press tab to switch between flat (box) and smooth display.
 
 ### 6. Create a depression on the bottom of the mug (Time 00:50)
 
-I can't get this depression to work. Specifically, I can't get it to create new geometry. When I hit Ctrl it just starts moving everything. 
+I can't get this ctrl+shift clicking instructions to work on Rhino8.
+
+ChatGPT says to use the Inset command. I used an Inset of 10 to define the width of the ring around the recessed center. 
+
+I then clicked on the vertical axis handle once to open a dialog box to enter a value. I used 10.  
+
+I also deleted a lower edge loop on the outside and lowered the next highest loop to get less of a rounded shape on the outside bottom.  
+
+![](./img/coffee-mug-6.jpg)
+
+Resulting in a nice recessed bottom  
+
+![](./img/coffee-mug-7.jpg)
+
+### 7. Raise the inside bottom
+The inside bottom is below the outsite bottom now. I had to raise the inner bottom faces and then delete an edge loop and slide down a higher edge loop to get the shape I was going for.  
+
+![](./img/coffee-mug-8.jpg)
+
+### 8. Add the handle
+
+Now I need that edge loop back that I deleted earlier. I'll try just raising the lower edge loop.
+
+Bevel - set KeepCreases = No  
+
+Here it is in Rendered view
+
+![](./img/coffee-mug-9.jpg)
+
