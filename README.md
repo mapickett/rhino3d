@@ -22,5 +22,8 @@ Rhino Guide: https://www.rhino3d.com/docs/guides/user-guide/gumball-basics/
 ![](./img/gumball.jpg)
 
 
+## Sample Projects
+[Coffee Mug](./coffee-mug/coffee-mug.md)
+
 
 
